@@ -1,0 +1,27 @@
+[
+  {
+    "noise_multiplier": 0.5,
+    "epsilon": 7.316300958149621,
+    "clean_accuracy": 0.9477142857142857
+  },
+  {
+    "noise_multiplier": 0.75,
+    "epsilon": 1.6079083059724075,
+    "clean_accuracy": 0.9331428571428572
+  },
+  {
+    "noise_multiplier": 1.0,
+    "epsilon": 0.774132841926659,
+    "clean_accuracy": 0.9218571428571428
+  },
+  {
+    "noise_multiplier": 1.5,
+    "epsilon": 0.4093427554158822,
+    "clean_accuracy": 0.9057142857142857
+  },
+  {
+    "noise_multiplier": 2.0,
+    "epsilon": 0.2836609818367294,
+    "clean_accuracy": 0.8907142857142857
+  }
+]

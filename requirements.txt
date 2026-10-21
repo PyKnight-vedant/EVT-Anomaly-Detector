@@ -1,0 +1,11 @@
+torch>=2.1
+torchvision>=0.16
+scikit-learn>=1.3
+numpy>=1.24
+matplotlib>=3.7
+scipy>=1.11
+pandas>=2.0
+adversarial-robustness-toolbox>=1.17
+foolbox>=3.3
+opacus>=1.4
+tqdm>=4.66

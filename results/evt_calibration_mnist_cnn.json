@@ -1,0 +1,546 @@
+{
+  "neg_margin": {
+    "300": {
+      "0.001": {
+        "gpd": {
+          "mean_fpr": 0.0023305451398903955,
+          "std_fpr": 0.002225311196826608,
+          "mean_abs_rel_error": 1.8555523507355065,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.0033371791173925592,
+          "std_fpr": 0.002425934065799462,
+          "mean_abs_rel_error": 2.519111623882319
+        }
+      },
+      "0.005": {
+        "gpd": {
+          "mean_fpr": 0.006827228151139314,
+          "std_fpr": 0.004048835014726331,
+          "mean_abs_rel_error": 0.6308970291318143,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.007487741563311221,
+          "std_fpr": 0.004883554846545436,
+          "mean_abs_rel_error": 0.8387539659648111
+        }
+      },
+      "0.01": {
+        "gpd": {
+          "mean_fpr": 0.011635419671185462,
+          "std_fpr": 0.005677637563784099,
+          "mean_abs_rel_error": 0.3499394289010672,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.012737236804153446,
+          "std_fpr": 0.006400919972823711,
+          "mean_abs_rel_error": 0.5101009518315546
+        }
+      },
+      "0.05": {
+        "gpd": {
+          "mean_fpr": 0.05146524372656476,
+          "std_fpr": 0.01179993974633703,
+          "mean_abs_rel_error": 0.1896048456879146,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.057277184886068644,
+          "std_fpr": 0.01170196810917686,
+          "mean_abs_rel_error": 0.20996827228151135
+        }
+      }
+    },
+    "500": {
+      "0.001": {
+        "gpd": {
+          "mean_fpr": 0.0010902797807903087,
+          "std_fpr": 0.0014268467848921075,
+          "mean_abs_rel_error": 1.0883761176809923,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.0016758004038073262,
+          "std_fpr": 0.0015362694932273308,
+          "mean_abs_rel_error": 1.0669858667435823
+        }
+      },
+      "0.005": {
+        "gpd": {
+          "mean_fpr": 0.0062445918661667155,
+          "std_fpr": 0.002468637852502207,
+          "mean_abs_rel_error": 0.4159100086530142,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.006088837611768098,
+          "std_fpr": 0.0039645003458165465,
+          "mean_abs_rel_error": 0.5847706951254688
+        }
+      },
+      "0.01": {
+        "gpd": {
+          "mean_fpr": 0.01161811364291895,
+          "std_fpr": 0.0039012375425785204,
+          "mean_abs_rel_error": 0.28839919238534756,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.012108451110470146,
+          "std_fpr": 0.004753207072384091,
+          "mean_abs_rel_error": 0.39011248918373237
+        }
+      },
+      "0.05": {
+        "gpd": {
+          "mean_fpr": 0.04810787424286127,
+          "std_fpr": 0.0074446150647444346,
+          "mean_abs_rel_error": 0.1183155465820594,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.05190366310931641,
+          "std_fpr": 0.007913408904241177,
+          "mean_abs_rel_error": 0.13022209402942025
+        }
+      }
+    },
+    "1000": {
+      "0.001": {
+        "gpd": {
+          "mean_fpr": 0.0009287568503028553,
+          "std_fpr": 0.0007664745076528506,
+          "mean_abs_rel_error": 0.634173637150274,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.0010124026535910007,
+          "std_fpr": 0.000745750607543264,
+          "mean_abs_rel_error": 0.5674531295067782
+        }
+      },
+      "0.005": {
+        "gpd": {
+          "mean_fpr": 0.005520623017017595,
+          "std_fpr": 0.0018938133975133031,
+          "mean_abs_rel_error": 0.2595904239976926,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.005076434958177099,
+          "std_fpr": 0.0029066057088597635,
+          "mean_abs_rel_error": 0.4111450822036343
+        }
+      },
+      "0.01": {
+        "gpd": {
+          "mean_fpr": 0.011439284684164983,
+          "std_fpr": 0.00320673538253492,
+          "mean_abs_rel_error": 0.2530256706085953,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.011341217190654744,
+          "std_fpr": 0.003818209963960969,
+          "mean_abs_rel_error": 0.32609172194981256
+        }
+      },
+      "0.05": {
+        "gpd": {
+          "mean_fpr": 0.049544274588981835,
+          "std_fpr": 0.006307554031718432,
+          "mean_abs_rel_error": 0.09411018171329681,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.05233342947793482,
+          "std_fpr": 0.006483132210946966,
+          "mean_abs_rel_error": 0.10343236227285835
+        }
+      }
+    },
+    "2000": {
+      "0.001": {
+        "gpd": {
+          "mean_fpr": 0.0009374098644361117,
+          "std_fpr": 0.000547454655209181,
+          "mean_abs_rel_error": 0.44707239688491485,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.000934525526391693,
+          "std_fpr": 0.0004461316712081986,
+          "mean_abs_rel_error": 0.39112777617536776
+        }
+      },
+      "0.005": {
+        "gpd": {
+          "mean_fpr": 0.004865878280934526,
+          "std_fpr": 0.0007845240416446849,
+          "mean_abs_rel_error": 0.13559850014421695,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.004043841938275166,
+          "std_fpr": 0.0012372297353364958,
+          "mean_abs_rel_error": 0.266962792039227
+        }
+      },
+      "0.01": {
+        "gpd": {
+          "mean_fpr": 0.01060571098932795,
+          "std_fpr": 0.0013031367782526742,
+          "mean_abs_rel_error": 0.10793192962215174,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.010279780790308626,
+          "std_fpr": 0.0019628423714461367,
+          "mean_abs_rel_error": 0.1478396308047303
+        }
+      },
+      "0.05": {
+        "gpd": {
+          "mean_fpr": 0.04872800692241131,
+          "std_fpr": 0.004387005155739347,
+          "mean_abs_rel_error": 0.07536198442457456,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.05106143640034613,
+          "std_fpr": 0.0042353054522787535,
+          "mean_abs_rel_error": 0.07545428324199595
+        }
+      }
+    },
+    "6935": {
+      "0.001": {
+        "gpd": {
+          "mean_fpr": 0.001009518315546582,
+          "std_fpr": 0.0,
+          "mean_abs_rel_error": 0.009518315546581946,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.0008653014133256418,
+          "std_fpr": 0.0,
+          "mean_abs_rel_error": 0.13469858667435822
+        }
+      },
+      "0.005": {
+        "gpd": {
+          "mean_fpr": 0.00490337467551197,
+          "std_fpr": 0.0,
+          "mean_abs_rel_error": 0.019325064897605937,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.004038073262186328,
+          "std_fpr": 0.0,
+          "mean_abs_rel_error": 0.19238534756273445
+        }
+      },
+      "0.01": {
+        "gpd": {
+          "mean_fpr": 0.010383616959907702,
+          "std_fpr": 0.0,
+          "mean_abs_rel_error": 0.038361695990770175,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.00995096625324488,
+          "std_fpr": 0.0,
+          "mean_abs_rel_error": 0.004903374675511996
+        }
+      },
+      "0.05": {
+        "gpd": {
+          "mean_fpr": 0.04860109604845688,
+          "std_fpr": 0.0,
+          "mean_abs_rel_error": 0.02797807903086244,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.050908566483991925,
+          "std_fpr": 0.0,
+          "mean_abs_rel_error": 0.01817132967983845
+        }
+      }
+    }
+  },
+  "loss": {
+    "300": {
+      "0.001": {
+        "gpd": {
+          "mean_fpr": 0.00029142857142857144,
+          "std_fpr": 0.0011208451621660415,
+          "mean_abs_rel_error": 1.1028571428571428,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.0035742857142857147,
+          "std_fpr": 0.003161179061873036,
+          "mean_abs_rel_error": 2.9057142857142857
+        }
+      },
+      "0.005": {
+        "gpd": {
+          "mean_fpr": 0.003868571428571428,
+          "std_fpr": 0.004029669556513769,
+          "mean_abs_rel_error": 0.7622857142857142,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.00642,
+          "std_fpr": 0.003495234072918407,
+          "mean_abs_rel_error": 0.5308571428571429
+        }
+      },
+      "0.01": {
+        "gpd": {
+          "mean_fpr": 0.01084857142857143,
+          "std_fpr": 0.004806832721899789,
+          "mean_abs_rel_error": 0.36371428571428566,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.011522857142857145,
+          "std_fpr": 0.0056831013378547575,
+          "mean_abs_rel_error": 0.39228571428571435
+        }
+      },
+      "0.05": {
+        "gpd": {
+          "mean_fpr": 0.052362857142857135,
+          "std_fpr": 0.013164305790233512,
+          "mean_abs_rel_error": 0.21308571428571427,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.05279714285714286,
+          "std_fpr": 0.014811994312387649,
+          "mean_abs_rel_error": 0.23628571428571424
+        }
+      }
+    },
+    "500": {
+      "0.001": {
+        "gpd": {
+          "mean_fpr": 0.00025714285714285715,
+          "std_fpr": 0.001049003414324904,
+          "mean_abs_rel_error": 1.1371428571428572,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.0018742857142857144,
+          "std_fpr": 0.0018561843680419427,
+          "mean_abs_rel_error": 1.4800000000000002
+        }
+      },
+      "0.005": {
+        "gpd": {
+          "mean_fpr": 0.005065714285714287,
+          "std_fpr": 0.0037967988664996542,
+          "mean_abs_rel_error": 0.557142857142857,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.007299999999999998,
+          "std_fpr": 0.003736007909793663,
+          "mean_abs_rel_error": 0.6348571428571429
+        }
+      },
+      "0.01": {
+        "gpd": {
+          "mean_fpr": 0.01142,
+          "std_fpr": 0.003449272032041023,
+          "mean_abs_rel_error": 0.2877142857142857,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.010679999999999999,
+          "std_fpr": 0.004006072940943945,
+          "mean_abs_rel_error": 0.31257142857142856
+        }
+      },
+      "0.05": {
+        "gpd": {
+          "mean_fpr": 0.055125714285714285,
+          "std_fpr": 0.010120927601272726,
+          "mean_abs_rel_error": 0.17965714285714285,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.05410857142857142,
+          "std_fpr": 0.01110526846839382,
+          "mean_abs_rel_error": 0.18754285714285712
+        }
+      }
+    },
+    "1000": {
+      "0.001": {
+        "gpd": {
+          "mean_fpr": 0.0,
+          "std_fpr": 0.0,
+          "mean_abs_rel_error": 1.0,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.0019828571428571425,
+          "std_fpr": 0.0015152665287206815,
+          "mean_abs_rel_error": 1.28
+        }
+      },
+      "0.005": {
+        "gpd": {
+          "mean_fpr": 0.003662857142857143,
+          "std_fpr": 0.0021252149951264234,
+          "mean_abs_rel_error": 0.41600000000000004,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.0058,
+          "std_fpr": 0.0019451666944988945,
+          "mean_abs_rel_error": 0.3462857142857143
+        }
+      },
+      "0.01": {
+        "gpd": {
+          "mean_fpr": 0.01196,
+          "std_fpr": 0.002110815685260761,
+          "mean_abs_rel_error": 0.23142857142857146,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.010639999999999998,
+          "std_fpr": 0.002626744706876182,
+          "mean_abs_rel_error": 0.1982857142857143
+        }
+      },
+      "0.05": {
+        "gpd": {
+          "mean_fpr": 0.05343714285714286,
+          "std_fpr": 0.005522378221789032,
+          "mean_abs_rel_error": 0.10325714285714285,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.05263142857142857,
+          "std_fpr": 0.006455441621656278,
+          "mean_abs_rel_error": 0.11697142857142855
+        }
+      }
+    },
+    "2000": {
+      "0.001": {
+        "gpd": {
+          "mean_fpr": 0.0,
+          "std_fpr": 0.0,
+          "mean_abs_rel_error": 1.0,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.0009314285714285715,
+          "std_fpr": 0.000680480022649078,
+          "mean_abs_rel_error": 0.5085714285714286
+        }
+      },
+      "0.005": {
+        "gpd": {
+          "mean_fpr": 0.0037571428571428565,
+          "std_fpr": 0.0016954320381302127,
+          "mean_abs_rel_error": 0.33885714285714286,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.005365714285714286,
+          "std_fpr": 0.0011739206940498013,
+          "mean_abs_rel_error": 0.2
+        }
+      },
+      "0.01": {
+        "gpd": {
+          "mean_fpr": 0.011525714285714285,
+          "std_fpr": 0.001416647378820279,
+          "mean_abs_rel_error": 0.17371428571428568,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.01002,
+          "std_fpr": 0.001472193975684188,
+          "mean_abs_rel_error": 0.10942857142857143
+        }
+      },
+      "0.05": {
+        "gpd": {
+          "mean_fpr": 0.051971428571428564,
+          "std_fpr": 0.0035669686438378526,
+          "mean_abs_rel_error": 0.0634285714285714,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.05081714285714286,
+          "std_fpr": 0.003990912125296263,
+          "mean_abs_rel_error": 0.06377142857142855
+        }
+      }
+    },
+    "7000": {
+      "0.001": {
+        "gpd": {
+          "mean_fpr": 0.0,
+          "std_fpr": 0.0,
+          "mean_abs_rel_error": 1.0,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.0007142857142857143,
+          "std_fpr": 0.0,
+          "mean_abs_rel_error": 0.28571428571428575
+        }
+      },
+      "0.005": {
+        "gpd": {
+          "mean_fpr": 0.003857142857142857,
+          "std_fpr": 0.0,
+          "mean_abs_rel_error": 0.2285714285714286,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.005285714285714286,
+          "std_fpr": 0.0,
+          "mean_abs_rel_error": 0.05714285714285717
+        }
+      },
+      "0.01": {
+        "gpd": {
+          "mean_fpr": 0.011571428571428571,
+          "std_fpr": 0.0,
+          "mean_abs_rel_error": 0.15714285714285708,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.009714285714285713,
+          "std_fpr": 0.0,
+          "mean_abs_rel_error": 0.02857142857142867
+        }
+      },
+      "0.05": {
+        "gpd": {
+          "mean_fpr": 0.05242857142857143,
+          "std_fpr": 0.0,
+          "mean_abs_rel_error": 0.048571428571428515,
+          "fallback_fraction": 0.0
+        },
+        "empirical": {
+          "mean_fpr": 0.05128571428571429,
+          "std_fpr": 0.0,
+          "mean_abs_rel_error": 0.025714285714285717
+        }
+      }
+    }
+  }
+}

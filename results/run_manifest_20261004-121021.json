@@ -1,0 +1,21 @@
+{
+  "timestamp": "20261004-121021",
+  "python_version": "3.10.10 (tags/v3.10.10:aad5f6a, Feb  7 2023, 17:20:36) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "torch_version": "2.9.0+cu126",
+  "cuda_available": true,
+  "cuda_version": "12.6",
+  "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "numpy_version": "2.2.6",
+  "git_commit": "unknown",
+  "stage": "run_attacks",
+  "args": {
+    "dataset": "mnist",
+    "model": "cnn",
+    "checkpoint": null,
+    "epochs": 10,
+    "batch_size": 128,
+    "seed": 42,
+    "skip_expensive": false
+  }
+}
